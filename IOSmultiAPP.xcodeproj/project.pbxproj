@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		9219F9EE2687EAE2007C0C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219F9ED2687EAE2007C0C2C /* AppDelegate.swift */; };
 		9219F9F02687EAE2007C0C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219F9EF2687EAE2007C0C2C /* SceneDelegate.swift */; };
-		9219F9F22687EAE2007C0C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219F9F12687EAE2007C0C2C /* ViewController.swift */; };
 		9219F9F52687EAE2007C0C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219F9F32687EAE2007C0C2C /* Main.storyboard */; };
 		9219F9F72687EAE4007C0C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9219F9F62687EAE4007C0C2C /* Assets.xcassets */; };
 		9219F9FA2687EAE4007C0C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9219F9F82687EAE4007C0C2C /* LaunchScreen.storyboard */; };
+		9219FA042687EC79007C0C2C /* InitialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA032687EC79007C0C2C /* InitialTableViewController.swift */; };
+		9219FA082687F90D007C0C2C /* SegueDataTransferFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA072687F90D007C0C2C /* SegueDataTransferFirstViewController.swift */; };
+		9219FA0A2687FBFF007C0C2C /* SegueDataTransferSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA092687FBFF007C0C2C /* SegueDataTransferSecondViewController.swift */; };
+		9219FA0C26880AD0007C0C2C /* DelegateDataTransferFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA0B26880AD0007C0C2C /* DelegateDataTransferFirstViewController.swift */; };
+		9219FA0E26880AFA007C0C2C /* DelegateDataTransferSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA0D26880AFA007C0C2C /* DelegateDataTransferSecondViewController.swift */; };
+		9219FA10268932DF007C0C2C /* SegueByIdentifierFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA0F268932DF007C0C2C /* SegueByIdentifierFirstViewController.swift */; };
+		9219FA12268932FA007C0C2C /* SegueByIdentifierSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9219FA11268932FA007C0C2C /* SegueByIdentifierSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9219F9EA2687EAE2007C0C2C /* IOSmultiAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSmultiAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9219F9ED2687EAE2007C0C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9219F9EF2687EAE2007C0C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9219F9F12687EAE2007C0C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9219F9F42687EAE2007C0C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9219F9F62687EAE4007C0C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9219F9F92687EAE4007C0C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9219F9FB2687EAE4007C0C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9219FA032687EC79007C0C2C /* InitialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTableViewController.swift; sourceTree = "<group>"; };
+		9219FA072687F90D007C0C2C /* SegueDataTransferFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDataTransferFirstViewController.swift; sourceTree = "<group>"; };
+		9219FA092687FBFF007C0C2C /* SegueDataTransferSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDataTransferSecondViewController.swift; sourceTree = "<group>"; };
+		9219FA0B26880AD0007C0C2C /* DelegateDataTransferFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDataTransferFirstViewController.swift; sourceTree = "<group>"; };
+		9219FA0D26880AFA007C0C2C /* DelegateDataTransferSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDataTransferSecondViewController.swift; sourceTree = "<group>"; };
+		9219FA0F268932DF007C0C2C /* SegueByIdentifierFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueByIdentifierFirstViewController.swift; sourceTree = "<group>"; };
+		9219FA11268932FA007C0C2C /* SegueByIdentifierSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueByIdentifierSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		9219F9EC2687EAE2007C0C2C /* IOSmultiAPP */ = {
 			isa = PBXGroup;
 			children = (
-				9219F9ED2687EAE2007C0C2C /* AppDelegate.swift */,
-				9219F9EF2687EAE2007C0C2C /* SceneDelegate.swift */,
-				9219F9F12687EAE2007C0C2C /* ViewController.swift */,
-				9219F9F32687EAE2007C0C2C /* Main.storyboard */,
+				9219FA062687F881007C0C2C /* Model */,
+				9219FA012687EAF7007C0C2C /* View */,
+				9219FA052687F83C007C0C2C /* Controller */,
+				9219FA022687EB0A007C0C2C /* Supporting Files */,
 				9219F9F62687EAE4007C0C2C /* Assets.xcassets */,
-				9219F9F82687EAE4007C0C2C /* LaunchScreen.storyboard */,
 				9219F9FB2687EAE4007C0C2C /* Info.plist */,
 			);
 			path = IOSmultiAPP;
+			sourceTree = "<group>";
+		};
+		9219FA012687EAF7007C0C2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9219F9F32687EAE2007C0C2C /* Main.storyboard */,
+				9219F9F82687EAE4007C0C2C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9219FA022687EB0A007C0C2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9219F9ED2687EAE2007C0C2C /* AppDelegate.swift */,
+				9219F9EF2687EAE2007C0C2C /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9219FA052687F83C007C0C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9219FA032687EC79007C0C2C /* InitialTableViewController.swift */,
+				9219FA072687F90D007C0C2C /* SegueDataTransferFirstViewController.swift */,
+				9219FA092687FBFF007C0C2C /* SegueDataTransferSecondViewController.swift */,
+				9219FA0B26880AD0007C0C2C /* DelegateDataTransferFirstViewController.swift */,
+				9219FA0D26880AFA007C0C2C /* DelegateDataTransferSecondViewController.swift */,
+				9219FA0F268932DF007C0C2C /* SegueByIdentifierFirstViewController.swift */,
+				9219FA11268932FA007C0C2C /* SegueByIdentifierSecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9219FA062687F881007C0C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9219F9F22687EAE2007C0C2C /* ViewController.swift in Sources */,
+				9219FA12268932FA007C0C2C /* SegueByIdentifierSecondViewController.swift in Sources */,
+				9219FA0A2687FBFF007C0C2C /* SegueDataTransferSecondViewController.swift in Sources */,
+				9219FA082687F90D007C0C2C /* SegueDataTransferFirstViewController.swift in Sources */,
 				9219F9EE2687EAE2007C0C2C /* AppDelegate.swift in Sources */,
+				9219FA10268932DF007C0C2C /* SegueByIdentifierFirstViewController.swift in Sources */,
+				9219FA0C26880AD0007C0C2C /* DelegateDataTransferFirstViewController.swift in Sources */,
+				9219FA042687EC79007C0C2C /* InitialTableViewController.swift in Sources */,
 				9219F9F02687EAE2007C0C2C /* SceneDelegate.swift in Sources */,
+				9219FA0E26880AFA007C0C2C /* DelegateDataTransferSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
